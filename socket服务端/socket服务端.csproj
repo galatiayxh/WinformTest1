@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{799F6A93-A796-4566-BBA3-F517CD3EB102}</ProjectGuid>
+    <ProjectGuid>{A7766394-CB6D-430C-89B8-725BEFC9DC07}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>多线程</RootNamespace>
-    <AssemblyName>多线程</AssemblyName>
+    <RootNamespace>socket服务端</RootNamespace>
+    <AssemblyName>socket服务端</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
