@@ -33,6 +33,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yiele返回", "Yiele返回\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceDemo", "WcfServiceDemo\WcfServiceDemo.csproj", "{CBC0168D-025C-4EF4-B8A6-238F341BA396}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDemo", "WpfDemo\WpfDemo.csproj", "{2F4ADA5E-9BEE-45FC-8A95-EC8DEB839C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabControll", "TabControll\TabControll.csproj", "{A0FD48DC-C445-4742-81F9-E1D27D8503FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多态", "多态\多态.csproj", "{4AAB4559-A551-47D6-AD52-A8011085AC45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "播放器", "播放器\播放器.csproj", "{AFC81D47-4405-4A69-9B59-C93E254F8650}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApp1", "WindowsApp1\WindowsApp1.vbproj", "{EEF20E25-B2A2-4785-BE79-0628F0F740BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +105,26 @@ Global
 		{CBC0168D-025C-4EF4-B8A6-238F341BA396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBC0168D-025C-4EF4-B8A6-238F341BA396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBC0168D-025C-4EF4-B8A6-238F341BA396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4ADA5E-9BEE-45FC-8A95-EC8DEB839C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4ADA5E-9BEE-45FC-8A95-EC8DEB839C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4ADA5E-9BEE-45FC-8A95-EC8DEB839C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4ADA5E-9BEE-45FC-8A95-EC8DEB839C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0FD48DC-C445-4742-81F9-E1D27D8503FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0FD48DC-C445-4742-81F9-E1D27D8503FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0FD48DC-C445-4742-81F9-E1D27D8503FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0FD48DC-C445-4742-81F9-E1D27D8503FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAB4559-A551-47D6-AD52-A8011085AC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAB4559-A551-47D6-AD52-A8011085AC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAB4559-A551-47D6-AD52-A8011085AC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAB4559-A551-47D6-AD52-A8011085AC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC81D47-4405-4A69-9B59-C93E254F8650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC81D47-4405-4A69-9B59-C93E254F8650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC81D47-4405-4A69-9B59-C93E254F8650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC81D47-4405-4A69-9B59-C93E254F8650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF20E25-B2A2-4785-BE79-0628F0F740BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF20E25-B2A2-4785-BE79-0628F0F740BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF20E25-B2A2-4785-BE79-0628F0F740BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF20E25-B2A2-4785-BE79-0628F0F740BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
