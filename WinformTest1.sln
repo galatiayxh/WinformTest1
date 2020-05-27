@@ -47,6 +47,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "生成Excel饼图_柱状图
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commom", "Commom\Commom.csproj", "{CA636191-7914-4FA1-A58C-74628BB983E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "无限分级", "无限分级\无限分级.csproj", "{9D4AEC27-73C0-4946-83ED-ECC7652C6B0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{CA636191-7914-4FA1-A58C-74628BB983E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA636191-7914-4FA1-A58C-74628BB983E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA636191-7914-4FA1-A58C-74628BB983E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4AEC27-73C0-4946-83ED-ECC7652C6B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4AEC27-73C0-4946-83ED-ECC7652C6B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4AEC27-73C0-4946-83ED-ECC7652C6B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4AEC27-73C0-4946-83ED-ECC7652C6B0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
