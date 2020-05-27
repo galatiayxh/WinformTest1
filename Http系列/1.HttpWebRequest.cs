@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Http系列
 {
-    class HttpWebRequestDemo
+    public class HttpWebRequestDemo
     {
         //POST方法
         public static string HttpPost(string Url, string postDataStr)

@@ -14,7 +14,6 @@ namespace LInq_Lambda
             sc.Add(new Student { id = 0, name = "Tony" });
             sc.Add(new Student { id = 1, name = "Micheal" });
             sc.Add(new Student { id = 2, name = "Amy" });
-            foreach (var s in sc) { ...}
         }
     
     }

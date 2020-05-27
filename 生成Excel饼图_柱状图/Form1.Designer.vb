@@ -22,10 +22,39 @@ Partial Class Form1
     '不要使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.btn_out = New System.Windows.Forms.Button()
+        Me.dateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.SuspendLayout()
+        '
+        'btn_out
+        '
+        Me.btn_out.Location = New System.Drawing.Point(207, 171)
+        Me.btn_out.Name = "btn_out"
+        Me.btn_out.Size = New System.Drawing.Size(75, 23)
+        Me.btn_out.TabIndex = 3
+        Me.btn_out.Text = "button1"
+        Me.btn_out.UseVisualStyleBackColor = True
+        '
+        'dateTimePicker1
+        '
+        Me.dateTimePicker1.Location = New System.Drawing.Point(70, 68)
+        Me.dateTimePicker1.Name = "dateTimePicker1"
+        Me.dateTimePicker1.Size = New System.Drawing.Size(200, 21)
+        Me.dateTimePicker1.TabIndex = 2
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        Me.Controls.Add(Me.btn_out)
+        Me.Controls.Add(Me.dateTimePicker1)
+        Me.Name = "Form1"
+        Me.Text = "vb"
+        Me.ResumeLayout(False)
+
     End Sub
 
+    Private WithEvents btn_out As Button
+    Private WithEvents dateTimePicker1 As DateTimePicker
 End Class
