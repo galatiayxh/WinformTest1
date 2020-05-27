@@ -19,6 +19,7 @@ namespace Http系列
             Encoding encoding = Encoding.UTF8;
             byte[] postData = encoding.GetBytes(postDataStr);
             request.ContentLength = postData.Length;
+            //request.Headers.Add("Authorization", "Bearer " + Convert.ToBase64String(Encoding.UTF8.GetBytes($"{Username}:{Password}"))); //Outh2 Client 方式认证。
 
             Stream myRequestStream = request.GetRequestStream();
             myRequestStream.Write(postData, 0, postData.Length);
@@ -32,7 +33,7 @@ namespace Http系列
             string retString = myStreamReader.ReadToEnd();
             myStreamReader.Close();
             myResponseStream.Close();
-
+                
             return retString;
         }
         //GET方法
