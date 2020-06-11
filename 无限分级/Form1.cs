@@ -19,7 +19,7 @@ namespace 无限分级
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.tvType.Nodes.Clear();
+            this.tvUnlimited.Nodes.Clear();
             AddTree("00", (TreeNode)null);
         }
 
@@ -33,34 +33,34 @@ namespace 无限分级
         /// </summary>
         public void AddTree(string ParentID, TreeNode pNode)
         {
-            DataTable dt= SqlHelper.ExcuteDataTable("SELECT * FROM dbo.Tree");
+            DataTable dt= SqlHelper.ExcuteDataTable("SELECT * FROM dbo.ProductClassificationTree");
             //DataTable dt = typeManager.GetAllList().Tables[0];
             DataView dvTree = new DataView(dt);
 
             //过滤ParentID,得到当前的所有子节点 
-            dvTree.RowFilter = "ComType_ParentID = " + ParentID;
+            dvTree.RowFilter = "ProType_ParentID = '" + ParentID+"'";
 
             foreach (DataRowView Row in dvTree)
             {
                 TreeNode Node = new TreeNode();
                 if (pNode == null)
                 { //添加根节点 
-                    Node.Text = Row["CommodityTypeName"].ToString();
-                    Node.Name = Row["CommodityTypeName"].ToString();
-                    Node.Tag = Row["CommodityTypeID"].ToString();
-                    this.tvType.Nodes.Add(Node);
+                    Node.Text = Row["ProductTypeName"].ToString();
+                    Node.Name = Row["ProductTypeName"].ToString();
+                    Node.Tag = Row["ID"].ToString();
+                    this.tvUnlimited.Nodes.Add(Node);
                     //Node.Expanded = true; 
 
-                    AddTree(Row["CommodityTypeName"].ToString(), Node); //再次递归 
+                    AddTree(Row["ProductTypeName"].ToString(), Node); //再次递归 
                 }
                 else
                 { //添加当前节点的子节点 
-                    Node.Text = Row["CommodityTypeName"].ToString();
-                    Node.Name = Row["CommodityTypeName"].ToString();
-                    Node.Tag = Row["CommodityTypeID"].ToString();
+                    Node.Text = Row["ProductTypeName"].ToString();
+                    Node.Name = Row["ProductTypeName"].ToString();
+                    Node.Tag = Row["ID"].ToString();
                     pNode.Nodes.Add(Node);
                     //Node.Expanded = true; 
-                    AddTree(Row["CommodityTypeName"].ToString(), Node); //再次递归 
+                    AddTree(Row["ProductTypeName"].ToString(), Node); //再次递归 
                 }
             }
         }
@@ -80,7 +80,7 @@ namespace 无限分级
             {
                 //Emp.tagComType = "1";
                 //Emp.parentTagComType = "0";
-                this.tvType.Nodes.Clear();
+                this.tvUnlimited.Nodes.Clear();
                 AddTree("00", (TreeNode)null);
             }
         }
@@ -97,7 +97,7 @@ namespace 无限分级
             {
                 //Emp.tagComType = "1";
                 //Emp.parentTagComType = "0";
-                this.tvType.Nodes.Clear();
+                this.tvUnlimited.Nodes.Clear();
                 AddTree("00", (TreeNode)null);
             }
         }

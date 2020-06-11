@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.tvType = new System.Windows.Forms.TreeView();
+            this.tvUnlimited = new System.Windows.Forms.TreeView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.新增同级ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.新增下一级ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,13 +38,13 @@
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tvType
+            // tvUnlimited
             // 
-            this.tvType.ContextMenuStrip = this.contextMenuStrip1;
-            this.tvType.Location = new System.Drawing.Point(266, 12);
-            this.tvType.Name = "tvType";
-            this.tvType.Size = new System.Drawing.Size(243, 384);
-            this.tvType.TabIndex = 0;
+            this.tvUnlimited.ContextMenuStrip = this.contextMenuStrip1;
+            this.tvUnlimited.Location = new System.Drawing.Point(266, 12);
+            this.tvUnlimited.Name = "tvUnlimited";
+            this.tvUnlimited.Size = new System.Drawing.Size(243, 384);
+            this.tvUnlimited.TabIndex = 0;
             // 
             // contextMenuStrip1
             // 
@@ -54,32 +54,32 @@
             this.删除类别ToolStripMenuItem,
             this.修改类别ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 114);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(137, 92);
             // 
             // 新增同级ToolStripMenuItem
             // 
             this.新增同级ToolStripMenuItem.Name = "新增同级ToolStripMenuItem";
-            this.新增同级ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.新增同级ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.新增同级ToolStripMenuItem.Text = "新增同级";
             this.新增同级ToolStripMenuItem.Click += new System.EventHandler(this.新增同级ToolStripMenuItem_Click);
             // 
             // 新增下一级ToolStripMenuItem
             // 
             this.新增下一级ToolStripMenuItem.Name = "新增下一级ToolStripMenuItem";
-            this.新增下一级ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.新增下一级ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.新增下一级ToolStripMenuItem.Text = "新增下一级";
             this.新增下一级ToolStripMenuItem.Click += new System.EventHandler(this.新增下一级ToolStripMenuItem_Click);
             // 
             // 删除类别ToolStripMenuItem
             // 
             this.删除类别ToolStripMenuItem.Name = "删除类别ToolStripMenuItem";
-            this.删除类别ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.删除类别ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.删除类别ToolStripMenuItem.Text = "删除类别";
             // 
             // 修改类别ToolStripMenuItem
             // 
             this.修改类别ToolStripMenuItem.Name = "修改类别ToolStripMenuItem";
-            this.修改类别ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.修改类别ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.修改类别ToolStripMenuItem.Text = "修改类别";
             // 
             // Form1
@@ -87,7 +87,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tvType);
+            this.Controls.Add(this.tvUnlimited);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -98,7 +98,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TreeView tvType;
+        private System.Windows.Forms.TreeView tvUnlimited;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 新增同级ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 新增下一级ToolStripMenuItem;
