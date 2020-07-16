@@ -33,18 +33,18 @@ namespace Any的作用
               221,15,145,54,55
             };
 
-            var temp1 = t1.Where(x => t2.Any(y => y.Age == x.Age )).ToList();
+            var temp1 = t1.Where(x => t2.Any(y => y.Age == x.Age)).ToList();
 
             var temp2 = t1.Where(x => t3.Any(y => y == x.Age)).ToList();
 
-            var temp3 = t3.Where(x => t4.Any(y => y == x)).ToList();
+            var temp3 = t3.Where(x => t4.Any(y => y == x) == false).ToList();
 
             foreach (var item in temp1)
             {
                 Console.WriteLine(item.Name + "-----" + item.Age);
             }
 
-            Console.WriteLine( "--------------------------------------");
+            Console.WriteLine("--------------------------------------");
 
 
             foreach (var item in temp2)

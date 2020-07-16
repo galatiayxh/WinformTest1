@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WinformTest1.Properties
+namespace 自定义控件.Properties
 {
 
 

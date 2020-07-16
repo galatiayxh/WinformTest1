@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinformTest1
+namespace 自定义控件
 {
     static class Program
     {
