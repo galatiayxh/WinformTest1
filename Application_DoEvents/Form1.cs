@@ -29,7 +29,7 @@ namespace Application_DoEvents
             for (int q = 0; q < 10000; q++)
             {
                 textBox1.Text = q.ToString();
-                Application.DoEvents();
+                //Application.DoEvents();
                 if (q == 9999)
                 {
                     this.timer1.Stop();
