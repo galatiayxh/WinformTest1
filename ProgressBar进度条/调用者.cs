@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace ProgressBar进度条
 {
-    public partial class Form1 : Form
+    public partial class 调用者 : Form
     {
-        public Form1()
+        public 调用者()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
-            pbTest.Value = 0;
-            pbTest.Step = 5;
+            
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            pbTest.PerformStep();
+            执行进度条 form1 = new 执行进度条();
+            form1.ShowDialog();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ProgressBar进度条
 {
-    partial class Form1
+    partial class 执行进度条
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.pbTest = new System.Windows.Forms.ProgressBar();
+            this.pbDelete = new System.Windows.Forms.ProgressBar();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -42,12 +42,12 @@
             this.button1.Text = "<<<<<";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // pbTest
+            // pbDelete
             // 
-            this.pbTest.Location = new System.Drawing.Point(88, 56);
-            this.pbTest.Name = "pbTest";
-            this.pbTest.Size = new System.Drawing.Size(557, 23);
-            this.pbTest.TabIndex = 1;
+            this.pbDelete.Location = new System.Drawing.Point(88, 56);
+            this.pbDelete.Name = "pbDelete";
+            this.pbDelete.Size = new System.Drawing.Size(557, 23);
+            this.pbDelete.TabIndex = 1;
             // 
             // button2
             // 
@@ -65,7 +65,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.pbTest);
+            this.Controls.Add(this.pbDelete);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -77,7 +77,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ProgressBar pbTest;
+        private System.Windows.Forms.ProgressBar pbDelete;
         private System.Windows.Forms.Button button2;
     }
 }

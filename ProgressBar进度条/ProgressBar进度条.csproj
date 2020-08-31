@@ -90,16 +90,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="执行进度条.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="执行进度条.Designer.cs">
+      <DependentUpon>执行进度条.cs</DependentUpon>
+    </Compile>
+    <Compile Include="调用者.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="调用者.Designer.cs">
+      <DependentUpon>调用者.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="执行进度条.resx">
+      <DependentUpon>执行进度条.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="调用者.resx">
+      <DependentUpon>调用者.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

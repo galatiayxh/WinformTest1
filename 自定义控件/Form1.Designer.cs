@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.productComboBox = new 自定义控件.ProductComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // productComboBox
@@ -43,11 +44,20 @@
             this.productComboBox.Size = new System.Drawing.Size(121, 20);
             this.productComboBox.TabIndex = 0;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(581, 68);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 20);
+            this.comboBox1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.productComboBox);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -59,6 +69,7 @@
         #endregion
 
         private ProductComboBox productComboBox;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

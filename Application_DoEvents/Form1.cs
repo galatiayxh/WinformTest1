@@ -29,7 +29,7 @@ namespace Application_DoEvents
             for (int q = 0; q < 10000; q++)
             {
                 textBox1.Text = q.ToString();
-                //Application.DoEvents();
+                Application.DoEvents();
                 if (q == 9999)
                 {
                     this.timer1.Stop();
@@ -40,13 +40,13 @@ namespace Application_DoEvents
         private void button2_Click(object sender, EventArgs e)
         {
             this.timer1.Start();
-            this.timer1.Interval = 1000;
+            //this.timer1.Interval = 1000;
             this.timer1.Tick += new EventHandler(timer1_Tick);
 
             for (int q = 0; q < 100000; q++)
             {
                 textBox2.Text = q.ToString();
-                //Application.DoEvents();
+                Application.DoEvents();
                 if (q == 99999)
                 {
                     this.timer1.Stop();
